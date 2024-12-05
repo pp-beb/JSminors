@@ -1,0 +1,64 @@
+.topTxt{
+    align-items: center;
+    justify-content: center;
+}
+
+.topTxt h1{
+text-align: center;
+text-decoration: underline;
+font-style: italic;
+color:crimson;
+}
+
+.submitBtn{
+    background-color: dimgrey;
+    color: white;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.finalBtnDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finalBtn{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: dimgray;
+    color: white;
+}
+
+.questions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body h2{
+    color: dimgrey;
+    font-style: italic;
+}
+
+.mode{
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+    left: 90%;
+    cursor: pointer;
+}
+
+.default{
+    background-color: white;
+}
+.lightmode{
+    background-color:aquamarine;
+}
+
+.darkmode{
+    background-color:burlywood;
+}

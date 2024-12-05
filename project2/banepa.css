@@ -1,0 +1,56 @@
+.topTxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topTxt h1{
+    text-align: center;
+}
+
+.topTxt h6{
+    position: relative;
+    left: 2%;
+    top:20px;
+    font-style: italic;
+    color:dimgray;
+    cursor: pointer;
+}
+
+.imagesContainer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 15px;
+}
+
+.images{
+flex: 0 0 30%;
+cursor: crosshair;
+border: solid bisque;
+border-radius: 20px;
+}
+
+img{
+   width: 400px;
+   height: 400px;
+}
+
+.mode{
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+    left: 90%;
+    cursor: pointer;
+}
+
+.default{
+    background-color: white;
+}
+.lightmode{
+    background-color:aquamarine;
+}
+
+.darkmode{
+    background-color:burlywood;
+}

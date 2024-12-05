@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Quiz.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <div class="topTxt" id="topTxt">
+        <h1>The quiz of <a href="banepa.html">BANEPA</a></h1>
+    </div>
+    <div class="modes" id="modes">
+        <button class="mode default" id="default" onclick="defaul()"></button></br>
+        <button class="mode lightmode" id="lightmode" onclick="light()"></button></br>
+        <button class="mode darkmode" id="darkmode" onclick="dark()"></button>
+    </div>
+</head>
+<body>
+   <div>
+    <h2>1. Which is the most visited temple of Banepa?</h2>
+    <form action="">
+        <label><input type="radio" name="temple" value="Dhaneshwor">Dhaneshwor</label></br>
+    <form action="">
+        <label> <input type="radio" name="temple" value="Chandeshwori">Chandeshwori</label></br>
+    <form action="">
+        <label> <input type="radio" name="temple" value="Bhakteshwor">Bhakteshwor</label></br>
+    <form action="">
+        <label> <input type="radio" name="temple" value="Gosaithan">Gosaithan</label>
+    </form></br>
+    <button type="button" class="submitBtn" id="submitBtn" onclick="submitted1()">Submit</button>
+    </div>
+    <div>
+        <h2>2. Which is the most populated school of Banepa?</h2>
+        <form action="">
+            <label><input type="radio" name="school" value="Kavre">Kavre</label></br>
+        <form action="">
+            <label> <input type="radio" name="school" value="Kshitij">Kshitij</label></br>
+        <form action="">
+            <label> <input type="radio" name="school" value="Bhakteshwor">Bhakteshwor</label></br>
+        <form action="">
+            <label> <input type="radio" name="school" value="Vidya Sagar">Vidya Sagar</label>
+        </form></br>
+        <button type="button" class="submitBtn" id="submitBtn" onclick="submitted2()">Submit</button>
+        </div>
+        <div>
+            <h2>3. Which is the best futsal of Banepa?</h2>
+            <form action="">
+                <label><input type="radio" name="futsal" value="SR">SR</label></br>
+            <form action="">
+                <label> <input type="radio" name="futsal" value="Banepa">Banepa</label></br>
+            <form action="">
+                <label> <input type="radio" name="futsal" value="Royal">Royal</label></br>
+            <form action="">
+                <label> <input type="radio" name="futsal" value="ABM">ABM</label>
+            </form></br>
+            <button type="button" class="submitBtn" id="submitBtn" onclick="submitted3()">Submit</button>
+            </div>
+        <div>
+            <h2>4. How many wards are there in banepa?</h2>
+            <form action="">
+                <label><input type="radio" name="ward" value="11">11</label></br>
+            <form action="">
+                <label> <input type="radio" name="ward" value="12">12</label></br>
+            <form action="">
+                <label> <input type="radio" name="ward" value="13">13</label></br>
+            <form action="">
+                <label> <input type="radio" name="ward" value="14">14</label>
+            </form></br>
+            <button type="button" class="submitBtn" id="submitBtn" onclick="submitted4()">Submit</button>
+    </div>
+    <div>
+        <h2>5. Which is the oldest swimming pool of Banepa?</h2>
+        <form action="">
+            <label><input type="radio" name="pool" value="Summer palace">Summer palace</label></br>
+        <form action="">
+            <label> <input type="radio" name="pool" value="Dhaneshwor">Dhaneshwor</label></br>
+        <form action="">
+            <label> <input type="radio" name="pool" value="Gautam">Gautam</label></br>
+        <form action="">
+            <label> <input type="radio" name="pool" value="Jaleshwor">Jaleshwor</label>
+        </form></br>
+        <button type="button" class="submitBtn" id="submitBtn" onclick="submitted5()">Submit</button>
+</div>
+            <div class="finalBtnDiv">
+                <button type="button" class="finalBtn" onclick="score()">
+                    Are you finished?
+                </button>
+            </div>
+    <script src="Quiz.js"></script>
+</body>
+</html>
