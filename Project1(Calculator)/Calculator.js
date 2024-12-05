@@ -9,7 +9,7 @@ if(num1===null)
 else if(num2===null)
 {num2=9;}
 else
-        alert("This calculator can only add 2, single digit numbers.");
+        alert("This calculator can only add 2(single digit) numbers.");
 }
 function fun8(){
     document.getElementById("output").innerText=8;
