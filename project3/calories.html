@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calories.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calories Counter</title>
+    <h1>Calories burnt per day.</h1>
+</head>
+<body>
+    <div class="mainCont" id="mainCont">
+            <form class="form1">
+                    <h5>What is your height?</h5>
+                    <label>
+                        <h6>FEET</h6>
+                        <input type="number" name="height" id="feet">
+                    </label>
+                    <label>
+                        <h6>INCHES</h6>
+                        <input type="number" name="height" id="inch">
+                    </label>
+                </form>
+                <form class="form2">
+                    <h5>What is your weight?</h5>
+                    <label>
+                        <h6>Kg</h6>
+                        <input type="number" name="weight" id="weight">
+                    </label>
+                    </form>
+                    <form class="form3">
+                        <h5>What is your age?</h5>
+                        <label>
+                            <input type="number" name="age" id="age">
+                        </label>
+                        </form>
+               
+                <form class="form4">
+                    <h5>Gender</h5>
+                    <label>
+                        <input type="radio" name="gender" value="male">Male
+                    </label></br>
+                    <label>
+                        <input type="radio" name="gender" value="female">Female
+                    </label>
+                    </form>
+                    <div class="output" id="output">output</div>
+                    <button class="submit" id="submit" onclick="submitted()">submit</button>
+            </div>
+    <script src="calories.js"></script>
+</body>
+</html>

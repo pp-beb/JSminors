@@ -1,0 +1,55 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainCont{
+    padding: 147px;
+    border-radius: 10px;
+    border: solid black 3px;
+    max-width: 147px;
+    max-height: 147px;
+    position: absolute;
+    left: 33%;
+    background-color: bisque;
+    
+}
+.form1{
+    margin-top: -100px;
+    position: relative;
+    right: 70%;
+}
+
+.form2{
+    margin-top: -203px;
+    position: relative;
+    left: 70%;
+}
+
+.form3{
+    
+    position: relative;
+    left: 70%;
+}
+
+.form4{
+    
+    position: relative;
+    right: 70%;
+}
+
+.output{
+    
+    position: relative;
+    left: 70%;
+    background-color: white;
+    
+}
+
+.submit{
+    padding: 20px;
+    position: relative;
+    left: 20%;
+    font-size: small;
+}
