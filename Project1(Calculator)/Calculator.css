@@ -1,0 +1,38 @@
+.text {
+    position: absolute;
+    left: 40%;
+    color: aqua;
+    font-size:large;
+    font-style: italic;
+}
+
+.calcBox{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    border: 2px solid black;
+    background-color: dimgray;
+    border-radius: 50px;
+}
+
+.buttons{
+    display: inline-block;
+    margin: 25px;
+    width: 100px;
+    border-radius: 5px;
+    }
+
+.output{
+    position:absolute;
+    right: 8%;
+    border:2px solid black;
+    width: 80%;
+    height: 25px;
+    background-color: thistle;
+
+}
+
+.movingTxt{
+    color: crimson;
+    font-style: italic;
+}
