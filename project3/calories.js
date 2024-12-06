@@ -27,7 +27,8 @@ if(inch)
             
                 else
                 {alert("Please enter all values appropriately!!");}
-    heightVal=(feetVal*12)+inchVal;
+    feetVal1=feetVal*12;
+    heightVal=Number(feetVal1)+Number(inchVal);
     heightVal1=heightVal*2.54;
     let BMR;
     switch (genderVal) {
@@ -47,6 +48,7 @@ console.log(ageVal);
 console.log(weightVal);
 console.log(feetVal);
 console.log(inchVal);
+console.log(feetVal1);
 console.log(heightVal);
 console.log(heightVal1);
 }
