@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color: dimgray;
+}
+
+.table{
+    border: solid black 2px;
+
+}
+
+td{
+    border: solid black 2px;
+    padding: 40px;
+    color: teal;
+    background-color: beige;
+    cursor: pointer;
+}
+
+.tablediv{
+    position: absolute;
+    top: 20%;
+}
+
+.output{
+    position: absolute;
+    top: 50%;
+    color: dimgray;
+    font-style: italic;
+}
+
+.a{
+position: absolute;
+left: 5%;
+}
+
+.b{
+    position: absolute;
+    right: 5%;
+    }
