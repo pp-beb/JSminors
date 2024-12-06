@@ -4,6 +4,7 @@ let feet=document.getElementById('feet');
 let inch=document.getElementById('inch');
 let age=document.getElementById('age');
 let weight=document.getElementById('weight');
+let heightVal,heightVal1;
 const gender=document.querySelector('input[name="gender"]:checked');
 if(feet)
 {feetVal=feet.value;}
@@ -26,18 +27,29 @@ if(inch)
             
                 else
                 {alert("Please enter all values appropriately!!");}
-    let heightVal=(feetVal*12+inchVal)*2.54;
+    heightVal=(feetVal*12)+inchVal;
+    heightVal1=heightVal*2.54;
     let BMR;
     switch (genderVal) {
     case "male" :
-        BMR=10*weightVal+6.25*heightVal-5*ageVal+5;
+        BMR=10*weightVal+6.25*heightVal1-5*ageVal+5;
         break;
 
     case "female" :
-        BMR=10*weightVal+6.25*heightVal-5*ageVal-161;
+        BMR=10*weightVal+6.25*heightVal1-5*ageVal-161;
         break;
     }
 
     let kcal=BMR*1.5;
-    document.getElementById('output').innerText=kcal
+    document.getElementById('output').innerText="You loose "+Math.round(kcal)+" kcal on average."
+    
+console.log(ageVal);
+console.log(weightVal);
+console.log(feetVal);
+console.log(inchVal);
+console.log(heightVal);
+console.log(heightVal1);
 }
+
+
+
