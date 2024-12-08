@@ -11,6 +11,8 @@ h1{
 
 .table{
     border: solid black 2px;
+    border-radius: 30px;
+    background-color: blanchedalmond;
 
 }
 
@@ -20,6 +22,7 @@ td{
     color: teal;
     background-color: beige;
     cursor: pointer;
+    border-radius: 30%;
 }
 
 .tablediv{
@@ -32,6 +35,9 @@ td{
     top: 50%;
     color: dimgray;
     font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .a{

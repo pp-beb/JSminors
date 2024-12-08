@@ -9,39 +9,39 @@
 <body>
     <h1>The Periodic Table</h1>
     <div class="tablediv" id="tablediv">
-        <table class="table">
+        <table class="table" >
             <tr>
-                <td onclick="showElement('H')">H</td>
-                <td onclick="showElement('He')">He</td>
-                <td onclick="showElement('Li')">Li</td>
-                <td onclick="showElement('Be')">Be</td>
-                <td onclick="showElement('B')">B</td>
+                <td onmouseover="showElement('H')">H</td>
+                <td onmouseover="showElement('He')">He</td>
+                <td onmouseover="showElement('Li')">Li</td>
+                <td onmouseover="showElement('Be')">Be</td>
+                <td onmouseover="showElement('B')">B</td>
             </tr>
             <tr>
-                <td onclick="showElement('C')">C</td>
-                <td onclick="showElement('N')">N</td>
-                <td onclick="showElement('O')">O</td>
-                <td onclick="showElement('F')">F</td>
-                <td onclick="showElement('Ne')">Ne</td>
+                <td onmouseover="showElement('C')">C</td>
+                <td onmouseover="showElement('N')">N</td>
+                <td onmouseover="showElement('O')">O</td>
+                <td onmouseover="showElement('F')">F</td>
+                <td onmouseover="showElement('Ne')">Ne</td>
             </tr>
             <tr>
-                <td onclick="showElement('Na')">Na</td>
-                <td onclick="showElement('Mg')">Mg</td>
-                <td onclick="showElement('Al')">Al</td>
-                <td onclick="showElement('Si')">Si</td>
-                <td onclick="showElement('P')">P</td>
+                <td onmouseover="showElement('Na')">Na</td>
+                <td onmouseover="showElement('Mg')">Mg</td>
+                <td onmouseover="showElement('Al')" onmouseleave="clear()">Al</td>
+                <td onmouseover="showElement('Si')">Si</td>
+                <td onmouseover="showElement('P')">P</td>
             </tr>
             <tr>
-                <td onclick="showElement('S')">S</td>
-                <td onclick="showElement('Cl')">Cl</td>
-                <td onclick="showElement('Ar')">Ar</td>
-                <td onclick="showElement('K')">K</td>
-                <td onclick="showElement('Ca')">Ca</td>
+                <td onmouseover="showElement('S')">S</td>
+                <td onmouseover="showElement('Cl')">Cl</td>
+                <td onmouseover="showElement('Ar')">Ar</td>
+                <td onmouseover="showElement('K')">K</td>
+                <td onmouseover="showElement('Ca')">Ca</td>
             </tr>
         </table>
     </div>
-    <div class="output a" id="outputa">OUTPUT1</div>
-    <div class="output b" id="outputb">OUTPUT2</div>
+    <div class="output a" id="outputa"></div>
+    <div class="output b" id="outputb"></div>
     <script src="periodic.js"></script>
 </body>
 </html>
