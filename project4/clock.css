@@ -1,0 +1,15 @@
+body, html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.containerDiv{
+    border: solid black 2px;
+    width: 400px;
+    height: 200px;
+    line-height: 100px;
+    display: grid;
+    place-items: center;
+}
