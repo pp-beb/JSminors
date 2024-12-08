@@ -8,7 +8,7 @@ Basic clock in sync with real time.
 
 ## Made using
 
-- **HTML**: Basic skeleton for the clock
+- **HTML**: Basic skeleton for the clock.
 - **CSS**: To style i.e add colors, depth and sizes.
 - **JavaScript**: To obtain the date and update it every second(1000 ms), wish me. 
 
