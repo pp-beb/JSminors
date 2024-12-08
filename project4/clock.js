@@ -21,6 +21,9 @@ console.log(second1);
 console.log(day1);
 console.log(month1+1);
 console.log(year1);
+if(month1==='05' && day1==='23'){
+    document.getElementById('birthday').innerText="Happy birthday to me!!";
+}
 }
 
 const intervalid = setInterval(currentFun,1000)

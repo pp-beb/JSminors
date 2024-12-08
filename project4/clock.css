@@ -3,17 +3,39 @@ body, html{
     justify-content: center;
     align-items: center;
     height: 100%;
+    background-color: dimgray;
 }
 
 .containerDiv{
     border: solid black 2px;
+    border-radius: 15px;
     width: 400px;
     height: 200px;
     line-height: 100px;
     display: flex;
     flex-direction: column;
     place-items: center;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:ivory;
+    box-shadow:10px 10px 20px plum;
+
 }
 
+.tophalf{
+    color:cadetblue;
+    text-shadow: 5px 5px 10px;
+}
 
+.bottomhalf{
+    color: dimgrey;
+}
+
+.birthday{
+    position: absolute;
+    top: 20%;
+    font-family: cursive;
+    font-size: larger;
+    color:chocolate;
+}
 
