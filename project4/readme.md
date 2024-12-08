@@ -2,7 +2,7 @@
 Basic clock in sync with real time.
 
 ## More
-- Displays date and time in (Day/Month/Year) and (Hour:Minute:sSecond) format.
+- Displays date and time in (Day/Month/Year) and (Hour:Minute:Second) format.
 - Wishes me on birthday.
 - Looks asthetic AF.
 
