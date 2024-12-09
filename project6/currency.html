@@ -8,38 +8,38 @@
 </head>
 <body>
     <h1>Currency Converter</h1>
-    <div class="cont outputDiv" id="inputDiv">
-        <h3>Currency to convert</h3>
+    <div class="cont outputDiv" id="outputDiv">
+        
 
     </div>
-    <div class="cont inputDiv" id="outputDiv">
+    <div class="cont inputDiv" id="inputDiv">
         <h2>Convert from:</h2>
         <form>
             <label for="selection"></label>
-            <select id="selection" name="selection">
+            <select id="selection1" name="selection">
                 <option value="">Currency</option>
-                <option value="Option1">NRS(Re)</option>
-                <option value="Option2">USD($)</option>
-                <option value="Option3">Euros(£)</option>
+                <option value="NRS(Re)">NRS(Re)</option>
+                <option value="USD($)">USD($)</option>
+                <option value="Euros(£)">Euros(£)</option>
             </select>
-        <form>
             <h2>Amount</h2>
-            <label><input type="number" name="amount" value="amount"></label>
+        <form>
+            <label><input type="number" name="amount" id="amount"></label>
         </form>
         <h2>Convert to:</h2>
         <form>
             <label for="selection"></label>
-            <select id="selection" name="selection">
+            <select id="selection2" name="selection">
                 <option value="">Currency</option>
-                <option value="Option1">NRS(Re)</option>
-                <option value="Option2">USD($)</option>
-                <option value="Option3">Euros(£)</option>
+                <option value="NRS(Re)">NRS(Re)</option>
+                <option value="USD($)">USD($)</option>
+                <option value="Euros(£)">Euros(£)</option>
             </select>
         </form>
     </div>
 <div class="arrow" id="arrow">
-    <button type="button" class="convertbtn" id="convertbtn">CONVERT</button>
-    <img src="arrow.png">
+    <button type="button" class="convertbtn" id="convertbtn" onclick="submitted()">CONVERT</button>
+    <img src="arrow.png" >
 </div>
     <script src="currency.js"></script>
 </body>

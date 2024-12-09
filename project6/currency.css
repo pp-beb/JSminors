@@ -4,23 +4,26 @@ body,html {
     align-items: center;
 }
 
-.cont{
-    border: solid black 3px;
-}
 
 .outputDiv{
     position: absolute;
     top: 25%;
     left: 60%;
-    padding: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+
 }
 
 .inputDiv{
+    border: solid black 3px;
     position: absolute;
     top: 25%;
     right: 60%;
     padding-left: 100px;
     padding-right: 100px;
+
 }
 
 .arrow{
