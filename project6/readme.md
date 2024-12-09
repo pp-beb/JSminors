@@ -16,7 +16,7 @@ Basic currency converter which swings all three ways in NRS, USD and Euros.
 
 1. Just normal cloning 
 2. Open the folder
-3. Checkout the clock on currency.html
+3. Checkout the calculator on currency.html
 
 ## Limitation
 1. Real time exchange rates are not applied.
