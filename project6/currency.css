@@ -1,0 +1,39 @@
+body,html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont{
+    border: solid black 3px;
+}
+
+.outputDiv{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    padding: 104px;
+}
+
+.inputDiv{
+    position: absolute;
+    top: 25%;
+    right: 60%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.arrow{
+    position: absolute;
+    top: 50%;
+}
+
+img{
+    max-width: 100px;
+}
+
+.convertbtn{
+    margin: 15px;
+    position: absolute;
+    bottom: 100%;
+}
